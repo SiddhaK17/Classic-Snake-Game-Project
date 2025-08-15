@@ -1,25 +1,25 @@
 # 🐍 Classic Snake Game Project
-*A modern reimagining of the timeless Snake arcade classic, this project brings together clean Python programming, interactive graphics with `turtle`, and engaging gameplay mechanics. Built as a part of my Python learning journey, it blends nostalgia with structured, readable, and maintainable code, making it a great demonstration of event-driven programming and modular design in Python.*
+*A modern reimagining of the timeless Snake arcade classic, this project brings together clean Python programming, interactive graphics with `turtle`, and engaging gameplay mechanics. Built as a part of my Python learning journey, it blends nostalgia with structured, readable, and maintainable code, making it a great demonstration of event driven programming and modular design in Python.*
 
 ---
 
 ## 📌 Overview
-The **Classic Snake Game Project** is a **modern, Python-based reimagining** of the legendary Snake game that defined an era of mobile and arcade gaming.  
-Built entirely with Python’s native `turtle` graphics module, this project showcases a **clean, modular, and object-oriented approach** to game development — with smooth gameplay, intelligent collision handling, and persistent high-score tracking.
+The **Classic Snake Game Project** is a **modern, Python based reimagining** of the legendary Snake game that defined an era of mobile and arcade gaming.  
+Built entirely with Python’s native `turtle` graphics module, this project showcases a **clean, modular, and object oriented approach** to game development with smooth gameplay, intelligent collision handling, and persistent high score tracking.
 
-This version retains the nostalgic charm of the original game while integrating **well-structured code architecture**, making it an **excellent demonstration of software design principles**.  
-It is not just a fun project — it’s a showcase of **OOP mastery, game state management, and file handling** in Python.  
+This version retains the nostalgic charm of the original game while integrating **well structured code architecture**, making it an **excellent demonstration of software design principles**.  
+It is not just a fun project, it’s a showcase of **OOP mastery, game state management, and file handling** in Python.  
 
 ---
 
 ## ⚙️ Technologies & Concepts Used
-The project incorporates **both programming best practices and real-time graphics rendering techniques** to deliver a polished experience:  
+The project incorporates **both programming best practices and real time graphics rendering techniques** to deliver a polished experience:  
 
 - **💻 Programming Language:**  
   Developed in **Python 3.13**, leveraging its simplicity and versatility for game logic.
 
 - **🎨 Graphics Engine:**  
-  Built using Python’s built-in `turtle` module, enabling smooth and responsive 2D rendering without external dependencies.
+  Built using Python’s built in `turtle` module, enabling smooth and responsive 2D rendering without external dependencies.
 
 - **🏗 Object-Oriented Programming (OOP):**  
   Classes are implemented for each game component (`Snake`, `Food`, `Scoreboard`) ensuring **encapsulation, modularity, and reusability**.
