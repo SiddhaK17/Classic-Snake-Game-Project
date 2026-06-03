@@ -1,10 +1,4 @@
-import os
-from tkinter.constants import RIGHT
-
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
-
-from turtle import Turtle, Screen
+from turtle import Turtle
                                                             #the default size of one box is 20px width and 20 px height
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]           #as the default size of one box is 20px x 20px, then to move it on the left we will do: -20 px on the x axis and 0px on y axis as it's on the same line
 MOVE_DISTANCE = 20
