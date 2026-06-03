@@ -8,7 +8,7 @@ The **Classic Snake Game Project** is a **modern, Python based reimagining** of 
 Built entirely with Python’s native `turtle` graphics module, this project showcases a **clean, modular, and object oriented approach** to game development with smooth gameplay, intelligent collision handling, and persistent high score tracking.
 
 This version retains the nostalgic charm of the original game while integrating **well structured code architecture**, making it an **excellent demonstration of software design principles**.  
-It is not just a fun project, it’s a showcase of **OOP mastery, game state management, and file handling** in Python.  
+It is not just a fun arcade game, it also demonstrates **object oriented programming, game state management, collision handling, and persistent data storage** in Python.
 
 ---
 
@@ -37,7 +37,7 @@ The project incorporates **both programming best practices and real time graphic
 ---
 
 ## 🎮 Gameplay Mechanics
-The gameplay has been crafted to be **fluid, engaging, and true to the original Snake experience**, with enhanced scoring and reset features:
+The gameplay has been carefully designed to feel **smooth, responsive, and faithful to the classic Snake arcade experience**, with enhanced scoring and reset features:
 
 1. **🔄 Snake Movement**
    - Controlled using **Arrow Keys**:
@@ -78,9 +78,9 @@ classic-snake-game-project/
     ├── food.py         # Food class – handles random spawning and rendering
     ├── scoreboard.py   # Scoreboard class – manages scoring and high score persistence
     ├── data.txt        # Stores the highest score between game sessions
+    ├── snake_game_no_highscore.png      # Gameplay screenshot with no saved high score
+    ├── snake_game_with_highscore.png    # Gameplay screenshot with persistent high score
     └── README.md       # Project documentation
-    ├── snake_game_no_highscore.png
-    ├── snake_game_with_highscore.png
 ```
 
 ---
@@ -95,7 +95,7 @@ classic-snake-game-project/
 
 1. Install the required dependencies (if not already present):
    ```bash
-   pip install turtle
+   Turtle Graphics is included with Python's standard library and does not require separate installation.
    ```
 
 2. **Clone the repository**
@@ -177,4 +177,4 @@ This project was developed as part of my learning journey through **"100 Days of
 
 The inclusion of features such as **persistent high score tracking**, **modular file separation**, and **polished README documentation** were added to enhance both **user experience** and **code readability**, transforming the project into a professional grade demonstration of beginner-to-intermediate Python skills.  
 
-Special acknowledgment to the Python `turtle` graphics library for making the game’s graphical interface possible in a beginner friendly yet powerful way.  
+Special acknowledgment to Python’s built in `turtle` graphics library for providing a lightweight yet powerful framework for building interactive graphical applications and beginner friendly game development projects.
