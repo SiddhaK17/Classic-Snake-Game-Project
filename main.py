@@ -1,10 +1,3 @@
-import os
-
-from scoreboard import Scoreboard
-
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
-
 from turtle import Turtle, Screen
 from snake import Snake
 from food import Food
@@ -46,10 +39,15 @@ while game_is_on:
         snake.reset()
 
     #Detect collision with tail.
-    for segment in snake.segments:   # or you can write "for segment in snake.segments[1:]:"
-        if segment == snake.head:
-            pass
-        elif snake.head.distance(segment) < 10:
+    # for segment in snake.segments:   # or you can write "for segment in snake.segments[1:]:"
+    #     if segment == snake.head:
+    #         pass
+    #     elif snake.head.distance(segment) < 10:
+    #         scoreboard.reset()
+    #         snake.reset()
+
+    for segment in snake.segments[1:]:
+        if snake.head.distance(segment) < 10:
             scoreboard.reset()
             snake.reset()
 
