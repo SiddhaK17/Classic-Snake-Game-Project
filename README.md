@@ -72,7 +72,7 @@ The gameplay has been carefully designed to feel **smooth, responsive, and faith
 ## 📂 Project Structure
 
 ```
-classic-snake-game-project/
+Classic-Snake-Game-Project/
     ├── main.py         # Entry point – initializes and runs the game loop
     ├── snake.py        # Snake class – handles creation, movement, and growth
     ├── food.py         # Food class – handles random spawning and rendering
@@ -100,12 +100,12 @@ classic-snake-game-project/
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/classic-snake-game-project.git
+   git clone https://github.com/your-username/Classic-Snake-Game-Project.git
    ```
 
 3. **Navigate to the project folder**
    ```bash
-   cd classic-snake-game-project
+   cd Classic-Snake-Game-Project
    ```
 
 > 💡 **Optional – Windows Only:** If you encounter errors related to `TCL_LIBRARY` or `TK_LIBRARY`, ensure that your Python installation's Tcl paths are correctly set using `os.environ` at the beginning of your script:
